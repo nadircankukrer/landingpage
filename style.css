@@ -1,0 +1,61 @@
+body {background-color: #f0f2f5;;}
+
+.bg-color {
+    background-color: #ffffff;;
+}
+
+.btn-bg {
+    background-color: #6C63FF
+}
+
+#Kutucuklar {
+    animation: kutucuk-animasyonu 2s linear infinite;
+}
+
+#Kutucuk {
+    animation: kutucuk-animasyonu 2s linear infinite;
+}
+
+@keyframes kutucuk-animasyonu {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-0.5rem);
+    }
+    40% {
+        transform: translateY(-1rem);
+    }
+    70% {
+        transform: translateY(-1.5rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.fa-fish {
+    color: #6C63FF;
+    font-size: 1.8rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    position: fixed;
+    font-size:0.9rem;
+    left: 5rem;
+    right: 5rem;
+    
+}
+
+.li {
+    margin: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
